@@ -1,8 +1,13 @@
 import React from "react";
+import HomePage from "./homepage.component";
 import "./App.css";
 
 function App() {
-  return <div>Did it change?</div>;
+  return (
+    <>
+      <HomePage />
+    </>
+  );
 }
 
 export default App;
